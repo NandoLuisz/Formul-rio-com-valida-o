@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário com validação</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <main id="container">
+      <form id="login-form">
+        <div id="form_header">
+          <h1>Criar uma conta</h1>
+        </div>
+        <div id="inputs">
+          <div class="input-box">
+            <label for="name">Nome do usuário</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Digite seu nome de usuário..."
+            />
+          </div>
+          <div class="input-box">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Digite seu email..." />
+          </div>
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite sua senha..."
+            />
+          </div>
+          <div class="input-box">
+            <label for="confirmpassword">Confimarção de senha</label>
+            <input
+              type="password"
+              id="confirmpassword"
+              placeholder="Digite novamente sua senha..."
+            />
+          </div>
+        </div>
+        <button type="submit" id="send">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
